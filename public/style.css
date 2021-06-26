@@ -1,0 +1,13 @@
+@media (min-width:400px) {
+    .rootcard {
+        display           : flex;
+        /* grid-column-gap: 5px; */
+        flex-wrap         : wrap;
+        justify-content: center;
+    }
+
+    .card {
+        max-width: 200px;
+        margin   : 20px;
+    }
+}
